@@ -1,0 +1,7 @@
+{
+  "name": "frontEnd",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
