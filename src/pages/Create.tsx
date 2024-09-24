@@ -1,14 +1,14 @@
 import { IonContent, IonHeader, IonPage } from '@ionic/react';
 import '../styles/Home.css';
 
-const Home: React.FC = () => {
+const Create: React.FC = () => {
   return (
     <IonPage>
       <IonContent fullscreen>
-        Home Page
+        Create Page
       </IonContent>
     </IonPage>
   );
 };
 
-export default Home;
+export default Create;
