@@ -1,0 +1,12 @@
+ion-toolbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ion-header ion-toolbar:first-of-type{
+    --ion-safe-area-top: 15px;
+    --ion-safe-area-bottom: 15px;
+    --ion-safe-area-left: 10px;
+    --ion-safe-area-right: 10px;
+}

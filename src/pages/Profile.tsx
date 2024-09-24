@@ -1,13 +1,26 @@
-import { IonContent, IonHeader, IonPage } from '@ionic/react';
-import '../styles/Home.css';
+import { IonContent, IonHeader, IonTitle,  IonToolbar, } from '@ionic/react';
 
 const Profile: React.FC = () => {
   return (
-    <IonPage>
-      <IonContent fullscreen>
-        Profile Page
+    <>
+      <IonHeader>
+        <IonToolbar>
+          <IonTitle>Profile Page</IonTitle>
+        </IonToolbar>
+      </IonHeader>
+      <IonContent>
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            height: '100%',
+          }}
+        >
+          Profile Page
+        </div>
       </IonContent>
-    </IonPage>
+    </>
   );
 };
 
